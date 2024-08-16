@@ -1,0 +1,13 @@
+<Context>
+    <Resource
+        name="java:/comp/env/DsJndi"
+        auth="Container"
+        type="javax.sql.DataSource"
+        maxTotal="20"
+        maxIdle="10"
+        maxWaitMillis="10000"
+        username="root"
+        password="Manager"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/mydatabase"/>
+</Context>
