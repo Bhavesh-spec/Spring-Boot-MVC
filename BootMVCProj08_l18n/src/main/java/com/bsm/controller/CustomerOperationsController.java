@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import com.bsm.model.Customer;
 @Controller
-//@RequestMapping("/example")
 public class CustomerOperationsController {
 	@GetMapping("/")
 	public String showHome() {

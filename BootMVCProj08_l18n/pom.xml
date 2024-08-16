@@ -64,11 +64,7 @@
         <version>3.0.0</version> <!-- Use the version that matches your server -->
         <scope>provided</scope>
     </dependency>
-    <dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-webmvc</artifactId>
-    <version>${spring.version}</version>
-</dependency>
+
 
 	</dependencies>
 
