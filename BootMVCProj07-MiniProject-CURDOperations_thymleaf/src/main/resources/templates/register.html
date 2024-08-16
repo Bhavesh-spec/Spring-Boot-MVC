@@ -1,0 +1,18 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:if=${!empsList.empty}>
+<h1 style="color: red;text-align:center;">Employees Report</h1>
+<table border="1" align="center" bgcolor=cyan>
+<tr style="color: red;"><th>empno</th><th>emp name</th><th>job</th><th>salary</th><th>deptno</th><th>operations</th></tr>
+<tr th:each="emp:${empList}" style="color: blue;">
+<td><span th:text="${emp.empno}"></span></td>
+<td><span th:text="${emp.ename}"></span></td>
+<td><span th:text="${emp.job}"></span></td>
+<td><span th:text="${emp.sal}"></span></td>
+<td><span th:text="${emp.deptno}"></span></td>
+<td><a th:href="@{}"></a></td>
+
+
+
+
+</table>
+</div>
